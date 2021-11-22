@@ -1,0 +1,115 @@
+.section1
+{
+   
+    width: 100%;
+    
+}
+
+.main
+{
+    border:solid 1px white;
+    float:right;
+	width: 350px;
+	height: 200px;
+	background: rgb(192, 184, 184);
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+    text-align: center;
+    padding: 2px;
+    margin-right: 20px;
+    /* background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover; */
+}
+.logintable tr td
+{
+    padding: 5px;
+    text-align: left;
+
+}
+.description
+{
+    margin-left: 20px;
+    min-height: 250px;
+}
+.text1
+{
+    color:white;
+    font-style: italic;
+}
+.footer
+{
+    
+    color:beige;
+    text-align: center;
+    position:absolute;
+    bottom: 13px;
+    left: 350px;
+
+}
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+.banner
+{
+   
+    display: flex;
+    overflow-x: auto;
+    overflow: hidden;
+    
+}
+.images
+{
+    height: 200px;
+    width: 300px;
+    padding:3px; 
+    position: relative;
+    animation: 10s slidy infinite; 
+   
+}
+
+.banner::-webkit-scrollbar
+{
+    display: none;
+}
+
+input{
+	width: 65%;
+	height: 20px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 15px auto;
+	padding: 5px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+.button1{
+	width: 68%;
+	height: 35px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #207c0d;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 15px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+button:hover
+{
+    background: #64f56b;
+}

@@ -1,0 +1,34 @@
+.aboutmain{
+	
+
+    border:solid 1px white;
+   color: rgb(3, 3, 3);
+	width: 700px;
+	height: 250px;
+	background: rgb(212, 197, 197);
+	overflow: hidden;
+	border-radius: 10px;
+	/* box-shadow: 5px 20px 50px #000; */
+    text-align: center;
+    padding: 10px;
+    padding-top: 50px;
+    margin-left: 25%;
+    margin-top: 10%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+   
+    /* background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover; */
+}
+.maindiv
+{
+   
+    
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.p1{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+	 

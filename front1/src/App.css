@@ -1,0 +1,6 @@
+body{
+  /* background-image: url("C:\Users\nithi\Desktop\hostal-management\hostelapp\src\components\Homepage\bgimage.jpeg"); */
+  background-image: url('C:\Users\nithi\Desktop\hostelapp\frontend\src\components\Homepage\bgimage.jpeg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
